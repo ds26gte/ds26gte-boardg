@@ -2,6 +2,8 @@ import Gallery from './Gallery';
 import SallyPackingList from './SallyPackingList';
 import ScientistListing from './ScientistListing';
 import RecipeListing from './RecipeListing';
+import HaikuListing from './HaikuListing';
+
 
 export default function App() {
   return (
@@ -10,6 +12,7 @@ export default function App() {
     <SallyPackingList />
     <ScientistListing />
     <RecipeListing />
+    <HaikuListing />
     </>
   );
 }
