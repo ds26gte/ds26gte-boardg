@@ -17,13 +17,13 @@ const marieSklodowskaCurie = {
 
 export default function Gallery() {
   return (
-    <section>
-      <h1>Amazing scientists</h1>
+    <>
+    <h1>Amazing scientists</h1>
     uses subcomponents, passing props, changing one prop based on another
-    <br/>
-      <Profile person={katsukoSaruhashi} />
-      <Profile person={linLanying} size={80}/>
-      <Profile person={marieSklodowskaCurie} size={90}/>
-    </section>
+    <br/><br/>
+    <Profile person={katsukoSaruhashi} />
+    <Profile person={linLanying} size={80}/>
+    <Profile person={marieSklodowskaCurie} size={90}/>
+    </>
   );
 }
