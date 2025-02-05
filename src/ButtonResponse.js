@@ -7,6 +7,10 @@ function onUploadImage() {
 }
 
 function Button({ onClick, children }) {
+  // the argument object of Button contains info about how
+  // it was called. The fields correspond to the attributes.
+  // The special attribute `children` contains the array of
+  // the enclosed tags
   return (
     <button onClick={onClick}>
     {children}

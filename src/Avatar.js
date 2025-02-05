@@ -5,6 +5,8 @@ export default function Avatar({person, size = 100}) {
   if (size > 90) {
     thumbnailSize = 'b';
   }
+  // a component returns a single tag.
+  // the HTML attribute `class` should be called `className` in React
   return (
     <img
       className="avatar"

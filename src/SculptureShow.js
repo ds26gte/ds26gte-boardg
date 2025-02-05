@@ -1,17 +1,17 @@
 import { useState } from 'react';
 
-import { sculptureList } from './sculptureList'; 
-
-
+import { sculptureList } from './sculptureList';
 
 const numSculptures = sculptureList.length;
 
 export default function SculptureShow() {
+  // React state variables are associated with a component,
+  // and as such must be declared and used within the component
   const [index, setIndex] = useState(0);
   function handleClick() {
     if (index === (numSculptures - 1)) {
-      // can't setIndex to an overflow index, and then zero it, as
-      // each setIndex causes a render
+      // can't setIndex to an overflowing index, and then zero it, as
+      // each setIndex causes a re-render
       setIndex(0);
     } else {
       setIndex(index + 1);
