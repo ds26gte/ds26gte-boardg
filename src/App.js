@@ -13,16 +13,7 @@ export default function App() {
 
   return (
     <>
-    <Gallery />
     <SallyPackingList />
-    <ScientistListing />
-    <RecipeListing />
-    <HaikuListing />
-    <ModRecipe />
-    <Board />
-    <ButtonResponse />
-    <ToggleLight />
-    <SculptureShow />
     </>
   );
 
