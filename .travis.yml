@@ -4,16 +4,15 @@ node_js:
 - 22.5.1
 cache:
   directories:
-    - node_modules
-    - ide/node_modules
+  - node_modules
 script:
 - echo "hello world"
 - npm install
 deploy:
   provider: heroku
   app: ds26gte-boardg
-  api_key:
-    secure: "LFgJ/jpyFLSSxTerQbRFx7o0PRa5scaOZWYWhTtnYAdtKsy8cFko2lJMsolEGxcjYMG2cr4BJT1OFkyMWJCwrXj2i6c8TxqcqtJ0D9KNMx7xikxm9AifFFLPqQQH8PUllrJIIQZjpAAG/1PiEl/KnzeDjmobbkwnUu3ITGDnFjvLSnTOYEWhLDisz1jX+XvojuuWUJAThZzJTHj1MAATuzEMqShmrk9HG4VYX81mwbwctReppwJouzcmhsONfXrg1aSq2u5fOjgieTsaIQjY+lfuknRN75A/anVJwZw1twHscdnYSVE0/eu7Pf7KzPgNnkyoEzRr4lRSwW0DawL0fjBv7AShOKqkItONu3R0TqntcVO/Q+U3AxB6JBhnRbxRjH/7Ylf4wNn8nmgZWiKjyKPqZup8aLYwgoKbIU9sqU16OArndjOvsBVsbExiHzVTsVDlYUz3WIU8cYPsZ71eRYojtuhDsBPMJNOsj3VIxorYmYcX39AimE7BFyOU5hCryD4cdivhXBQxGWsusIbwRQmaxTEUtunVVMddtDZL8TE2LeHDrBOJlQaiTe61UU0CFeFTNQL9DoG+fjA+p6NSiGPMUb4VG0uZQJ9l5Ztf8/8PMoR0kXtvDtDtJKegbNvzdKHGA1cKOKugLG9sq729ejCMp01S72hQ0p8CZbzBzUE="
   on:
     all-branches: true
   skip_cleanup: true
+  api_key:
+    secure: "C1MRr7TbvPmHJieQFyMxLDZbApAaJ9u+nKpGjsVr3AaA8j9Z4RE7x5vIltiEXJmAbOnOgJ/RrW15fOiwocenZKPwt9/W4M3N7zWIKygp1tpvb4UE0iN+OJxgCWv3iVowWssz9Th/6zEoinyRo7aGK7oLD9kU97W9zMCAxZSW30MHxqzbVz28zyV4UHtbOmrU4Fa3nw9Yn1RWFBHR4yqnE0fY/tX+4llQUg8GxnYvmlXp8g1INo3vgUxAEc/b7fCRUpU0hUCBRYfleFl+m58GjlEAzdLqNfz6dHVYIIRSozM/DCIfP5WFBfMoq17lkzy9MH0djadDJ7FfMu0vGwaBR3yUs16lva+wqyhKlCXsVVtU+9PwOzSRE4DgkxQTo6cTTkVa2DXnsJT/o+HvlIhHWZ6/nRiXh5if+VBDCm4E52T/VVbTqtv8QjX02pMST6caxyTcI+6tLlqxo+8gTLNynn28KjlZCnkUjjc8HFCF84HdoTT55XPq2BMNAn+EsX+p5ZWOtfdaxBZFTLr6C59OumY0WdrSIc7aL+tTp09P4D8KcvlX2jXDeWT41FJOgN1ymoZ2r3w1KZnBlrKuO/8w1vmVQPMYXgUeilqnzLGEY2TrSRBxn7CNYd5+Wylt2Vyz1fX3IbKLO9nEWg167+MAh3R7aHo12iBRFJF79hpF6CI="
