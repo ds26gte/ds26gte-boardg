@@ -5,6 +5,7 @@ node_js:
 cache:
   directories:
   - node_modules
+  - build
 script:
 - echo "hello world"
 - npm install
